@@ -1,0 +1,25 @@
+Sample Input
+he l  lo wo   rld
+Sample Output
+7
+Sample Input
+f  acebook
+Sample Output
+2
+
+
+# Sample code to perform I/O:
+
+name = input()                  # Reading input from STDIN
+# print('Hi, %s.' % name)         # Writing output to STDOUT
+
+
+# Write your code here
+space = 0
+
+
+for char in name:
+    if char == " ":
+        space += 1
+        
+print(space)
